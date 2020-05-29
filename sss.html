@@ -19,8 +19,28 @@
      <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
 </head>
 <body>
-    <div class="iframe-container">
-  <iframe src="https://toss.website/ddd.html" allowfullscreen></iframe>
-</div>
+  <iframe
+   src="https://toss.website/ddd.html"
+   frameborder="0"
+   width="100%"
+   marginheight="0"
+   marginwidth="0"
+   scrolling="no"
+></iframe> 
+
+    <script>
+        
+        $.fn.resizeiframe=function(){
+    $(this).load(function() {
+        $(this).height( $(this).contents().find("body").height() );
+    });
+    $(this).click(function() {
+        $(this).height( $(this).contents().find("body").height() );
+    });
+            
+            $('iframe').resizeiframe();
+
+}
+    </script>
 </body>
 </html>
