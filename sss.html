@@ -21,7 +21,23 @@
     <script>
         
 $(document).ready(function(){
-    $.iframeHeight('#autoIframe');
+$('#autoIframe').iframeHeight({
+	resizeMaxTry         : 2,
+	resizeWaitTime       : 300,
+	minimumHeight        : 2000,
+	defaultHeight        : 2000,
+	heightOffset         : 90,
+	exceptPages          : "",
+	debugMode            : false,
+	visibilitybeforeload : true,
+	blockCrossDomain     : true,
+	externalHeightName   : "bodyHeight",
+    onMessageFunctionName: "getHeight",
+    domainName           : "*",
+    watcher              : false,
+    watcherTime          : 400
+});
+   
 });
         
         
