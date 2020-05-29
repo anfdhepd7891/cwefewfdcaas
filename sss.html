@@ -18,17 +18,9 @@
 
     <script>
         
-        $.fn.resizeiframe=function(){
-    $(this).load(function() {
-        $(this).height( $(this).contents().find("body").height() );
-    });
-    $(this).click(function() {
-        $(this).height( $(this).contents().find("body").height() );
-    });
-    }
-        
-
-    $('iframe').resizeiframe();
+$(document).ready(function(){
+    $('iframe').iframeHeight();
+});
         
         
     </script>
