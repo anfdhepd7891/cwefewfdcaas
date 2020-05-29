@@ -1,22 +1,7 @@
 <html>
 <head>
-    <style>
-    .iframe-container {
-  overflow: hidden;
-  padding-top: 56.25%;
-  position: relative;
-}
- 
-.iframe-container iframe {
-   border: 0;
-   height: 100%;
-   left: 0;
-   position: absolute;
-   top: 0;
-   width: 100%;
-}
-    </style>
-     <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+   
+    
 </head>
 <body>
   <iframe
@@ -27,7 +12,7 @@
    marginwidth="0"
    scrolling="no"
 ></iframe> 
-
+ <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script>
         
         $.fn.resizeiframe=function(){
@@ -37,10 +22,12 @@
     $(this).click(function() {
         $(this).height( $(this).contents().find("body").height() );
     });
-            
-            $('iframe').resizeiframe();
+    }
+        
 
-}
+    $('iframe').resizeiframe();
+        
+        
     </script>
 </body>
 </html>
