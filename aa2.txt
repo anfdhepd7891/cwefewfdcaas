@@ -1,6 +1,6 @@
 <div id="mainb">     <div class="loan-nav">
               <nav class="fnb-loan"><div class="fnb-lg-wrapper">
-                  <a href="/main">
+                 <a href="#" id="invest">
                     
                   </a>
                   <div class="fnb-lg-left"><a id="invest" href="#">투자하기</a><a id="loann" href="#">대출하기</a><a href="/about">회사소개</a><a href="/notice">공지사항</a>
@@ -10,7 +10,7 @@
               </nav>
               <nav class="fnb-sm">
                 <div class="fnb-sm-wrapper">
-                  <a href="/main">
+                   <a href="#" id="invest">
                     <img class="web" src="https://i.ibb.co/xXMryW6/image-1.png" alt=""><img class="mobile" src="https://i.ibb.co/xXMryW6/image-1.png" alt="">
                   </a>
                   <div class="fnb-sm-left"><a id="invest" href="#">투자하기</a><a id="loann" href="#">대출하기</a>
@@ -48,7 +48,7 @@
                   </div>
                 </div>
                 <div class="fsb-main">
-                  <div class="header"><a href="/main">
+                  <div class="header">   <a href="#" id="invest">
                       <img class="web" src="https://i.ibb.co/wr7Vd1h/ezgif-com-gif-maker-1.png" alt=""><img class="mobile" src="https://i.ibb.co/wr7Vd1h/ezgif-com-gif-maker-1.png" alt=""></a>
                     <div class="fsb-x" role="presentation"><svg class="cancel-icon" xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" aria-labelledby="title"><title id="title">Cancel Icon</title><path d="M12.0666667,10.6524531 L17.4262266,5.29289322 C17.8167508,4.90236893 18.4499158,4.90236893 18.8404401,5.29289322 C19.2309644,5.68341751 19.2309644,6.31658249 18.8404401,6.70710678 L13.4808802,12.0666667 L18.9636243,17.5494108 C19.3541486,17.939935 19.3541486,18.5731 18.9636243,18.9636243 C18.5731,19.3541486 17.939935,19.3541486 17.5494108,18.9636243 L12.0666667,13.4808802 L6.70710678,18.8404401 C6.31658249,19.2309644 5.68341751,19.2309644 5.29289322,18.8404401 C4.90236893,18.4499158 4.90236893,17.8167508 5.29289322,17.4262266 L10.6524531,12.0666667 L5.29289322,6.70710678 C4.90236893,6.31658249 4.90236893,5.68341751 5.29289322,5.29289322 C5.68341751,4.90236893 6.31658249,4.90236893 6.70710678,5.29289322 L12.0666667,10.6524531 Z" id="path-1" fill="#ccc"></path></svg>
                     </div>
