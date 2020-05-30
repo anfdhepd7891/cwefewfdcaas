@@ -11,7 +11,7 @@
               <nav class="fnb-sm">
                 <div class="fnb-sm-wrapper">
                    <a href="#" id="invest">
-                    <img class="web" src="https://i.ibb.co/xXMryW6/image-1.png" alt=""><img class="mobile" src="https://i.ibb.co/xXMryW6/image-1.png" alt="">
+                    <img class="web" src="https:/.ibb.co/xXMryW6/image-1.png" alt=""><img class="mobile" src="https://i.ibb.co/xXMryW6/image-1.png" alt="">
                   </a>
                   <div class="fnb-sm-left"><a id="invest" href="#">투자하기</a><a id="loann" href="#">대출하기</a>
                   </div>
