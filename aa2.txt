@@ -56,7 +56,7 @@
                   <div class="link top">
                    <a href="#" id="invest">투자하기</a>
                     <a href="#" id="loan">대출하기</a>
-                    <a href="/about">회사소개</a>
+                   <a href="#" id="aboutt">회사소개</a>
                   </div>
                   <div class="extra-link"><a href="/notice">공지사항</a><a href="/faq">FAQ</a>
                     <div class="right"><a href="https://www.facebook.com/fundedp2p/" target="_blank" rel="noopener noreferrer"><img src="https://www.funded.co.kr/static/media/facebook.5b94d33e.svg"  alt="카카오"></a>
