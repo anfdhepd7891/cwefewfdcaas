@@ -49,8 +49,6 @@
                     <div class="agreement_area agreement_area_v2" style="display: block;"> 
                       <div class="box_scroll"> 
                         <ul> 
-                          <li><strong>KB부동산 Liiv ON 서비스 이용약관</strong>
-                          </li> 
                           <li> <strong>제1조 (목적)</strong> 
                             <p>이 약관은 주식회사 국민은행(이하 “은행”이라 한다)이 제공하는 KB부동산 Liiv ON 및 KB부동산 Liiv ON 관련 제반 서비스의 이용과 관련하여 은행과 고객(이하 “이용자”라고 한다)간의 권리, 의무 및 책임사항, 기타 필요한 사항을 규정함을 목적으로 합니다.</p> 
                           </li> 
@@ -249,116 +247,7 @@
                     </div> 
                   </li> 
                   <li> 
-                    <div class="form_area"> 
-                      <input type="checkbox" id="개인정보 수집 및 이용" class="round" name="agreement" value="1"> 
-                      <label for="개인정보 수집 및 이용" class="ws_nor">(필수) 개인정보 수집 및 이용(개인회원)</label> 
-                    </div> 
-                    <span title="펼치기/접기" class="btn_agree"><a href="#">
-                        <span class="blind">선택한 약관동의 자세히 보기</span></a>
-                    </span>
-                    <!-- 20181109 태그 수정 : 남인태 --> 
-                    <div class="agreement_area agreement_area_v2 improtant" style="display: none;"> 
-                      <div class="box_scroll"> 
-                        <p style="padding:10px;border:1px solid #ddd;">귀 행과의 (금융)거래와 관련하여 귀 행이 본인의 개인(신용)정보를 수집•이용하고자 하는 경우에는 「신용정보의 이용 및 보호에 관한 법률」 제15조 제2항, 제32조 제1항, 제33조 및 제34조, 「개인정보보호법」 제15조 제1항 제1호에 따라 본인의 동의가 필요합니다.</p> 
-                        <div class="agr_bx"> 
-                          <ul> 
-                            <li> <strong>수집·이용 목적</strong> 
-                              <p>회원가입을 위한 본인확인</p> 
-                            </li> 
-                            <li> <strong>수집·이용 항목</strong><br> [필수정보] 
-                              <ul class="num_list"> 
-                                <li>- 기기식별번호, 휴대폰번호, 사용자명</li> 
-                              </ul> 
-                            </li> 
-                            <li> <strong>보유·이용 기간</strong> 
-                              <p>위 개인(신용)정보는 회원 탈퇴 시 까지 보유·이용 됩니다.</p> 
-                            </li> 
-                            <li> <strong>동의를 거부할 권리 및 동의를 거부할 경우의 불이익</strong> 
-                              <p>위 개인(신용)정보의 수집·이용에 관한 동의는 KB부동산 Liiv ON 서비스 가입을 위해 필수적이므로, 위 사항에 동의하셔야 서비스 가입이 가능하십니다. </p> 
-                            </li> 
-                            <li> <strong>개인(신용)정보 수집•이용동의 여부<br>귀 행이 위와 같이 본인의 개인(신용)정보를 수집•이용하는 것에 동의합니다.</strong> 
-                              <p>* 은행의 고의 또는 과실 등 귀책사유로 인한 개인(신용)정보 유출로 고객님에게 발생한 손해에 대해 관계 법령 등에 따라 보상받으실 수 있습니다.</p> 
-                            </li> 
-                          </ul> 
-                        </div> 
-                      </div> 
-                    </div> 
-                  </li> 
-                  <li> 
-                    <div class="form_area"> 
-                      <input type="checkbox" id="KB부동산 Liiv ON 서비스 설명서" class="round" name="agreement" value="1"> 
-                      <label for="KB부동산 Liiv ON 서비스 설명서" class="ws_nor">(필수) KB부동산 Liiv ON 서비스 설명서</label> 
-                    </div> 
-                    <span title="펼치기/접기" class="btn_agree"><a href="#">
-                        <span class="blind">선택한 약관동의 자세히 보기</span></a>
-                    </span>
-                    <!-- 20181109 태그 수정 : 남인태 --> 
-                    <div class="agreement_area agreement_area_v2" style="display: none;"> 
-                      <div class="box_scroll"> 
-                        <p style="padding:10px;border:1px solid #ddd;"><strong>이 설명서</strong>는 은행이용자의 서비스에 대한 이해를 돕고 약관의 중요내용을 알려드리기 위한 <strong>참고자료</strong>이며, <strong>실제 계약은</strong> (KB부동산 Liiv ON 서비스 이용약관)<strong>이 적용</strong>됩니다. 계약을 <strong>신청하는 경우 약관</strong>이, <strong>계약을 체결하는 경우 계약서류가 교부</strong>됩니다.
-                        </p> 
-                        <div class="agr_bx"> 
-                          <ul> 
-                            <li> <strong>1. 서비스 개요 및 특징 </strong> 
-                              <ul class="num_list"> 
-                                <li>￭ KB부동산 Liiv ON이란 PC, 태블릿, 스마트폰 등을 이용해 부동산정보를 조회할 수 있는 서비스입니다.</li> 
-                                <li>￭ 부동산정보란 KB 부동산 Liiv ON 에서 이용할 수 있는 부동산매물/시세/분양 정보 등을 말합니다.</li> 
-                                <li>￭ KB 부동산 Liiv ON 서비스는 아파트·연립다세대·오피스텔·분양권·주택·상가 등 희망지역의 매물 검색, 전국 아파트·연립다세대·오피스텔 시세 및 변동추이와 실거래가, 분양·청약 일정부터 분양뉴스 캘린더 등 분양정보, 경매물건 검색·통계·칼럼·경매지식 정보 등을 제공합니다.</li> 
-                                <li>￭ 부동산 컨시어지 서비스란 주택을 구하고자하는 고객을 대상으로 중개업소 맞춤추천 및 부동산 금융상담을 제공하는 서비스를 말합니다.</li> 
-                              </ul> 
-                            </li> 
-                            <li> <strong>2. 수수료에 관한 사항</strong> 
-                              <ul class="num_list"> 
-                                <li>￭ 서비스 수수료는 무료입니다.</li> 
-                              </ul> 
-                            </li> 
-                            <li> <strong>3. 서비스해지에 관한 사항</strong> 
-                              <ul class="num_list"> 
-                                <li>￭ 서비스 이용을 중단하고자 할 경우 PC 웹페이지와 태블릿, 스마트폰을 통해 은행이 정한 절차에 따라 탈퇴(약관 철회) 할 수 있습니다.</li> 
-                              </ul> 
-                            </li> 
-                            <li> <strong>4. 거래제한에 관한 사항</strong> 
-                              <ul class="num_list"> 
-                                <li>￭ 이용자가 아래의 경우에 해당하는 경우 은행은 본 서비스 이용을 제한 또는 정지시킬 수 있습니다. 
-                                  <ul class="num_list"> 
-                                    <li>  - 서비스 이용 또는 정보 변경 시 허위내용을 서비스에 등록하는 행위</li> 
-                                    <li>  - 은행 및 기타 제 3 자의 인격권 또는 지식재산권을 침해하거나 업무를 방해하는 행위</li> 
-                                    <li>  - 개인정보보호법, 신용정보의 이용 및 보호에 관한 법률, 전자서명법, 정보통신망 이용촉진 및 정보 보호 등에 관한 법률, 위치정보의 보호 및 이용 등에 관한 법률, 전자금융거래법 관련 법령 등에 의하여 전송 또는 게시가 금지되어 있는 정보를 전송·게시하는 행위</li> 
-                                    <li>  - 컴퓨터 소프트웨어, 하드웨어, 전기통신장비의 정상적인 가동을 방해, 파괴할 목적으로 고안된 소프트웨어 바이러스를 유포하는 행위</li> 
-                                    <li>  - 은행 및 기타 제 3 자의 명예를 손상시키거나 업무를 방해하는 행위</li> 
-                                    <li>  - 다른 이용자의 ID 또는 공인인증서를 도용하여 부당하게 서비스를 이용하는 행위</li> 
-                                    <li>  - 광고, 음란, 욕설 또는 폭력적인 메시지, 기타 공공질서 및 미풍양속에 반하는 정보를 공개 또는 게시 하는 행위</li> 
-                                    <li>  - 현행 법령, 은행이 제공하는 서비스에 정한 약관 기타 서비스 이용에 관한 규정을 위반하는 행위</li> 
-                                  </ul> 
-                                </li> 
-                                <li>￭ 소셜로그인 고객 중 장기미사용(12개월이상 미로그인)인 경우 서비스 이용이 제한될 수 있습니다.</li> 
-                                <li>￭ 서비스 장비의 장애 및 유지보수 등 부득이한 경우와 정전, 천재지변, 국가비상사태 등 기타 불가항력적 사유로 인해 서비스가 제한될 수 있습니다.</li> 
-                              </ul> 
-                            </li> 
-                            <li> <strong>5. 은행 이용자가 유의해야 할 사항</strong> 
-                              <ul class="num_list"> 
-                                <li>￭ 이용자는 인터넷뱅킹 ID, 비밀번호, 공인인증서 등 각종 "인증수단"의 누설, 노출 사고 발생 시 지체없이 은행에 신고해야 합니다.</li> 
-                              </ul> 
-                            </li> 
-                            <li> <strong>6. 기타 계약의 주요내용</strong> 
-                              <ul class="num_list"> 
-                                <li>￭ 이용시간 : 연중 무휴, 1일 24시(단, 운영상의 필요로 은행이 정한 기간동안 서비스 일시중지 가능)</li> 
-                              </ul> 
-                            </li> 
-                          </ul> <br> 
-                          <p><strong>·</strong> 본 서비스는 KB 국민은행 부동산플랫폼부에서 관리하고 있습니다.
-                          </p> 
-                          <p style="padding:10px;border:1px solid #ddd;"> 서비스가입 후 의문사항 또는 불만(민원)이 있을 경우 스마트상담부(1644-9571) 또는 KB국민은행 홈페이지(www.kbstar.com)에 문의할 수 있고, 분쟁이 발생하는 경우에는 금융감독원 (국번없이 1332)등에 도움을 요청할 수 있습니다. </p> 
-                        </div> 
-                      </div> 
-                    </div> 
-                  </li> 
-                  <li> 
-                    <div class="form_area"> 
-                      <input type="checkbox" id="만 14세 이상 회원입니다" class="round" name="agreement" value="1"> 
-                      <label for="만 14세 이상 회원입니다" class="ws_nor">(필수) 만 14세 이상 회원입니다</label> 
-                    </div> 
-                  </li> 
+                  
                   <!-- <li>
                                     <div class="form_area">
                                       <input type="checkbox" id="부동산 맞춤 정보 수신동의" class="round">
