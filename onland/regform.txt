@@ -389,7 +389,7 @@
             </div> 
             <div class="btn_wrap both m_t2rem m_b3rem"> 
               <div class="w_fix"> 
-                <a href="javascript:void(0);" class="btn case2 m_t2rem type1" id="confirmBtn">다음</a> 
+                <button class="btn case2 m_t2rem type1" id="confirmBtn">다음</button> 
                 <a href="javascript:void(0);" class="btn case2 type1" id="smsConfirmBtn" onclick="passwordCheck(); return false;" style="display: none;">확인</a> 
               </div> 
             </div> 
