@@ -29,7 +29,7 @@
                 <a href="#popup01" class="ui_btn_lypop_open tultip_link dim">부가설명</a> 
               </span> 
             </div> 
-            <div id="totalAgree" class="accodion_area agree_box" > 
+            <div id="totalAgree" class="accodion_area agree_box on" style=""> 
               <div class="form_area"> 
                 <input type="checkbox" id="agreeAll" class="round" name="agreeAll"> 
                 <label for="agreeAll" class="ws_nor">서비스 전체 약관 동의</label> 
