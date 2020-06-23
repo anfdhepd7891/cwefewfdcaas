@@ -37,10 +37,7 @@
               <div id="accodionCont" class="accodion_cont" style="display:block"> 
                 <ul> 
                   <li> 
-                    <div class="form_area"> 
-                      <input type="checkbox" id="개인정보이용 및 제공 동의" class="round" name="agreement" value="1"> 
-                      <label for="개인정보이용 및 제공 동의" class="ws_nor">(필수) KB부동산 Liiv ON 서비스 이용약관</label> 
-                    </div> 
+               
                     <!-- 20181123 클래스 act 추가 : 최주원 --> 
                     <span title="펼치기/접기" class="btn_agree act"><a href="#">
                         <span class="blind">선택한 약관동의 자세히 보기</span></a>
