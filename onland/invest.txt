@@ -2,8 +2,7 @@
             						<div class="public_main_area">
             							<a href="./?weekly_cd=115&amp;channel_type=2" class="sale_info_graph">
             								<dl>
-            									<dt>전체 합계</dt>
-            									<dd>(2020.06.22 ~ 2020.06.26)</dd>
+            									<dt>전체 합계               </dt>
             								</dl>
             								<ul class="chart" _total_count="91" _max_count="54"><li><strong class="Title">매칭률</strong><div class="graph"><span class="graph_bar type1" style="flex: 0.555556 1 0%;"><span class="blind"></span></span> <span class="num">30</span></div></li><li><strong class="Title">수익률</strong><div class="graph"><span class="graph_bar type1" style="flex: 0.12963 1 0%;"><span class="blind"></span></span> <span class="num">7</span></div></li><li><strong class="Title">투자율</strong><div class="graph"><span class="graph_bar type1" style="flex: 1 1 0%;"><span class="blind"></span></span> <span class="num">54</span></div></li></ul>
             							</a>
