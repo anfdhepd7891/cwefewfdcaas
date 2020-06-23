@@ -41,8 +41,8 @@
                     <div class="card_box_cont p_t1rem"> 
                       <div class="btn_wrap both m_t0"> 
                         <div class="w_fix"> 
-                          <a href="#" class="btn case2 type2" >ID찾기</a> 
-                          <a href="#" class="btn case2 type1">회원가입</a> 
+                          <button  class="btn case2 type2" id="findid">ID찾기</button> 
+                          <button  class="btn case2 type1" id="reg">회원가입</button> 
                         </div> 
                       </div> 
                   
