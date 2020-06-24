@@ -1,0 +1,93 @@
+	<div id="mainSection" class="main_section">
+				
+					<div class="layer_dimmed quick_dimm"></div>
+				
+					<!-- <div class="ring-container">
+						<div class="ringring"></div>
+						<div class="circle"></div>
+					</div> -->
+					<p class="txt_title" id="단지지역명">
+						<a href="#" onclick="goDan(); return false;">관리자님 환영합니다.  </a>
+					</p>
+				
+<!-- 					
+					<ul class="top3_txt">
+					
+						
+						<li>
+							<a href="#" onclick="goDanjiDtl('KBM000762'); return false;">#관악드림타운</a>
+						</li>
+						
+					
+						
+						<li>
+							<a href="#" onclick="goDanjiDtl('KBM015923'); return false;">#관악산휴먼시아(2단지)</a>
+						</li>
+						
+					
+						
+						<li>
+							<a href="#" onclick="goDanjiDtl('KBM013834'); return false;">#관악푸르지오</a>
+						</li>
+						
+					
+					</ul> -->
+					
+					<!-- <div class="main2_controls">
+						<div class="main2_dots"><a href="#" class="a1">1</a><a href="#" class="a2">2</a></div>
+						<button class="playPause">슬라이드 정지</button>
+					</div> -->
+
+					<br>
+					<br>
+					<br>
+					<br>
+					<div class="basic_slider main2">
+							<div class="m1">
+								<div class="inner">
+									<a href="#" >USDT<span>테더<br />1,000,000</span></a>
+								</div>
+							</div>
+							<div class="m2">
+								<div class="inner"> 
+									<a href="#">ETH<span>이더리움<br />1,000,000</span></a>
+								</div>
+							</div>
+							<div class="m3">
+								<div class="inner">
+									<a href="#" >BTC<span>비트코인<br />1,000,000</span></a>
+								</div>
+							</div>
+	 						<div class="m4">
+	 							<div class="inner"> 
+									<a href="#" >KRW<span>원화<br />134,000,000</span></a>
+								</div>
+							</div>
+							<!-- <div class="m8">
+								<div class="inner"> 
+									<a href="https://zloan.kbstar.com/quics?page=omzloan&amp;utm_source=liivon&amp;utm_medium=banner%2FKB&amp;utm_campaign=%EB%A9%94%EC%9D%B8_%EB%A1%A4%EB%A7%81%EB%B0%B0%EB%84%88" target="_blank">대출한도<br/>대출금리<span>쉽게<br/>알아보기</span></a>
+								</div>
+							</div> -->
+						</div>
+					
+					
+		
+					
+					
+					
+				</div>
+				<!-- 2019-02-20 : 배너 영역 추가 -->
+				<div class="main_banner" id="banner1"  style="display:none;" >
+					<a href="https://zloan.kbstar.com/quics?page=C063503&amp;utm_source=liivon&amp;utm_medium=banner%2FKB&amp;utm_campaign=%EB%A9%94%EC%9D%B8_%ED%95%98%EB%8B%A8%EB%B0%B0%EB%84%88" target="_blank"><img src="/nimg1.kbstar.com/img/omland/mweb/main/banner_main_01.jpg" alt="내가 원하는 전월셋집, 대출한도와 금리 바로 알아보기" width="100%" height="auto" /></a>
+				</div>
+				<!--// 2019-02-20 : 배너 영역 추가 -->
+				<!-- 2020-01-20 : 배너 영역 추가 -->
+				<div class="main_banner" id="banner2" style="display:none;" >
+ 					<a href="#" onclick="goBbsDtl('999','948'); return false;"><img src="/nimg1.kbstar.com/img/omland/mweb/main/banner_main_03.jpg" alt="동영상으로 알아보는 부동산 꿀팁" width="100%" height="auto" /></a> 					
+				</div>
+				
+				<div class="main_banner" id="banner3" style="display:none;" >
+					<!-- 2020.06.01 컨시어지 배너 추가 -->
+					<a href="#" onclick="goConcierge(); return false;"><img src="/nimg1.kbstar.com/img/omland/mweb/main/banner_main_04.jpg" alt="컨시어지" width="100%" height="auto" /></a> 					
+				</div>
+					
