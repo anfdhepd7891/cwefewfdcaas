@@ -5,7 +5,7 @@
                     <div class="form_area"> <label for="아이디">아이디(ID)</label> <input type="text" id="txtWWWBnkgLginID" name="txtWWWBnkgLginID" maxlength="12" onblur="this.value=this.value.toUpperCase(); idOnblurCheck();" placeholder="영문,숫자,영문/숫자 조합(6~12자)" value="" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAPhJREFUOBHlU70KgzAQPlMhEvoQTg6OPoOjT+JWOnRqkUKHgqWP4OQbOPokTk6OTkVULNSLVc62oJmbIdzd95NcuGjX2/3YVI/Ts+t0WLE2ut5xsQ0O+90F6UxFjAI8qNcEGONia08e6MNONYwCS7EQAizLmtGUDEzTBNd1fxsYhjEBnHPQNG3KKTYV34F8ec/zwHEciOMYyrIE3/ehKAqIoggo9inGXKmFXwbyBkmSQJqmUNe15IRhCG3byphitm1/eUzDM4qR0TTNjEixGdAnSi3keS5vSk2UDKqqgizLqB4YzvassiKhGtZ/jDMtLOnHz7TE+yf8BaDZXA509yeBAAAAAElFTkSuQmCC&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;"> 
                       <div id="idText"></div> 
                     </div> 
-                    <div class="form_area"> <label for="txtWWWBnkgLginID">사용자 암호</label><input type="password" id="ddd" name="txtWWWBnkgLginID" maxlength="12" onblur="this.value=this.value.toUpperCase(); idOnblurCheck();" placeholder="패스워드" value="" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAPhJREFUOBHlU70KgzAQPlMhEvoQTg6OPoOjT+JWOnRqkUKHgqWP4OQbOPokTk6OTkVULNSLVc62oJmbIdzd95NcuGjX2/3YVI/Ts+t0WLE2ut5xsQ0O+90F6UxFjAI8qNcEGONia08e6MNONYwCS7EQAizLmtGUDEzTBNd1fxsYhjEBnHPQNG3KKTYV34F8ec/zwHEciOMYyrIE3/ehKAqIoggo9inGXKmFXwbyBkmSQJqmUNe15IRhCG3byphitm1/eUzDM4qR0TTNjEixGdAnSi3keS5vSk2UDKqqgizLqB4YzvassiKhGtZ/jDMtLOnHz7TE+yf8BaDZXA509yeBAAAAAElFTkSuQmCC&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;">
+                    <div class="form_area"> <label for="txtWWWBnkgLginID">사용자 암호</label><input type="password" id="txtWWWBnkgLginPW" name="txtWWWBnkgLginID" maxlength="12" onblur="this.value=this.value.toUpperCase(); idOnblurCheck();" placeholder="패스워드" value="" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAPhJREFUOBHlU70KgzAQPlMhEvoQTg6OPoOjT+JWOnRqkUKHgqWP4OQbOPokTk6OTkVULNSLVc62oJmbIdzd95NcuGjX2/3YVI/Ts+t0WLE2ut5xsQ0O+90F6UxFjAI8qNcEGONia08e6MNONYwCS7EQAizLmtGUDEzTBNd1fxsYhjEBnHPQNG3KKTYV34F8ec/zwHEciOMYyrIE3/ehKAqIoggo9inGXKmFXwbyBkmSQJqmUNe15IRhCG3byphitm1/eUzDM4qR0TTNjEixGdAnSi3keS5vSk2UDKqqgizLqB4YzvassiKhGtZ/jDMtLOnHz7TE+yf8BaDZXA509yeBAAAAAElFTkSuQmCC&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;">
                       <input type="hidden" id="nProtectUseYn1" name="nProtectUseYn1" value="Y" data-keypad-focus-field="LoginPassword"> 
                       <div id="pwdText"></div> 
                     </div> 
@@ -13,7 +13,7 @@
                     </div> 
                     <div class="btn_wrap both m_t2rem"> 
                       <div class="w_fix"> 
-                        <a href="/" class="btn case2 type1">로그인</a> 
+                        <a href="#" id="login" class="btn case2 type1">로그인</a> 
                       </div> 
                     </div> 
                   </div> 
