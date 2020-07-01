@@ -1,0 +1,104 @@
+/*! CSS Used from: Embedded */
+ion-icon{visibility:hidden;}
+.hydrated{visibility:inherit;}
+/*! CSS Used from: https://finapp.bragherstudio.com/view/assets/css/style.css?v=5 */
+/*! @import https://finapp.bragherstudio.com/view/assets/css/src/bootstrap/bootstrap.min.css */
+*,::after,::before{box-sizing:border-box;}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";font-size:1rem;font-weight:400;line-height:1.5;color:#212529;text-align:left;background-color:#fff;}
+p{margin-top:0;margin-bottom:1rem;}
+strong{font-weight:bolder;}
+a{color:#007bff;text-decoration:none;background-color:transparent;}
+a:hover{color:#0056b3;text-decoration:underline;}
+img{vertical-align:middle;border-style:none;}
+.col{position:relative;width:100%;padding-right:15px;padding-left:15px;}
+.col{-ms-flex-preferred-size:0;flex-basis:0;-ms-flex-positive:1;flex-grow:1;max-width:100%;}
+.btn{display:inline-block;font-weight:400;color:#212529;text-align:center;vertical-align:middle;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-color:transparent;border:1px solid transparent;padding:.375rem .75rem;font-size:1rem;line-height:1.5;border-radius:.25rem;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;}
+@media (prefers-reduced-motion:reduce){
+.btn{transition:none;}
+}
+.btn:hover{color:#212529;text-decoration:none;}
+.btn:focus{outline:0;box-shadow:0 0 0 .2rem rgba(0,123,255,.25);}
+.btn:disabled{opacity:.65;}
+.btn-primary{color:#fff;background-color:#007bff;border-color:#007bff;}
+.btn-primary:hover{color:#fff;background-color:#0069d9;border-color:#0062cc;}
+.btn-primary:focus{color:#fff;background-color:#0069d9;border-color:#0062cc;box-shadow:0 0 0 .2rem rgba(38,143,255,.5);}
+.btn-primary:disabled{color:#fff;background-color:#007bff;border-color:#007bff;}
+.btn-lg{padding:.5rem 1rem;font-size:1.25rem;line-height:1.5;border-radius:.3rem;}
+.btn-block{display:block;width:100%;}
+.badge{display:inline-block;padding:.25em .4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:.25rem;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;}
+@media (prefers-reduced-motion:reduce){
+.badge{transition:none;}
+}
+.badge:empty{display:none;}
+.badge-danger{color:#fff;background-color:#dc3545;}
+.mt-2{margin-top:.5rem!important;}
+.mb-2{margin-bottom:.5rem!important;}
+.text-danger{color:#dc3545!important;}
+@media print{
+*,::after,::before{text-shadow:none!important;box-shadow:none!important;}
+a:not(.btn){text-decoration:underline;}
+img{page-break-inside:avoid;}
+p{orphans:3;widows:3;}
+body{min-width:992px!important;}
+.badge{border:1px solid #000;}
+}
+/*! end @import */
+body{font-family:"Poppins",sans-serif;font-size:15px;line-height:1.6rem;letter-spacing:.004em;color:#958d9e;background:#EDEDF5;width:100%;height:100%;overflow-x:hidden;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+a{transition:.2s all;color:#6236FF;outline:0!important;}
+a:hover,a:active,a:focus{outline:0!important;color:#6236FF;text-decoration:none;}
+::-webkit-scrollbar{width:0;}
+.appHeader{height:56px;display:flex;justify-content:center;align-items:center;position:fixed;top:0;left:0;right:0;z-index:999;background:#FFFFFF;color:#27173E;border-bottom:1px solid #DCDCE9;}
+.appHeader .left,.appHeader .right{height:56px;display:flex;align-items:center;position:absolute;}
+.appHeader .left ion-icon,.appHeader .right .icon,.appHeader .right ion-icon{font-size:26px;}
+.appHeader .left .headerButton,.appHeader .right .headerButton{min-width:36px;height:56px;display:flex;align-items:center;justify-content:center;padding:10px;color:#6236FF;position:relative;}
+.appHeader .left .headerButton:active,.appHeader .right .headerButton:active{opacity:.6;}
+.appHeader .left{left:10px;top:0;}
+.appHeader .right{right:10px;top:0;}
+.appHeader .pageTitle{font-size:17px;font-weight:500;padding:0 10px;}
+.appBottomMenu{min-height:56px;position:fixed;z-index:999;width:100%;bottom:0;left:0;right:0;background:#FFFFFF;display:flex;align-items:center;justify-content:center;border-top:1px solid #DCDCE9;padding-left:4px;padding-right:4px;padding-bottom:env(safe-area-inset-bottom);}
+.appBottomMenu .item{font-size:9px;letter-spacing:0;text-align:center;width:100%;height:56px;line-height:1.2em;display:flex;align-items:center;justify-content:center;position:relative;}
+.appBottomMenu .item:before{content:'';display:block;height:2px;border-radius:0 0 10px 10px;background:transparent;position:absolute;left:4px;right:4px;top:0;}
+.appBottomMenu .item .col{width:100%;padding:0 4px;text-align:center;}
+.appBottomMenu .item ion-icon{display:inline-flex;margin:1px auto 3px auto;font-size:24px;line-height:1em;color:#27173E;transition:0.1s all;display:block;margin-top:1px;margin-bottom:3px;}
+.appBottomMenu .item strong{margin-top:4px;display:block;color:#27173E;font-weight:400;transition:0.1s all;}
+.appBottomMenu .item:active{opacity:.8;}
+.appBottomMenu .item:hover ion-icon,.appBottomMenu .item:hover strong{color:#27173E;}
+#appCapsule{padding:56px 0;margin-bottom:env(safe-area-inset-bottom);}
+.section{padding:0 16px;}
+.section-title{font-size:15px;padding:6px 0;color:#27173E;font-weight:500;}
+.mt-2{margin-top:16px!important;}
+.mb-2{margin-bottom:16px!important;}
+strong{font-weight:500;}
+.imaged{height:auto;border-radius:10px;}
+.imaged.w48{width:48px!important;}
+#loader{position:fixed;left:0;top:0;right:0;bottom:0;z-index:99999;background:#6236FF;display:flex;align-items:center;justify-content:center;}
+#loader .loading-icon{width:42px;height:auto;animation:loadingAnimation 1s infinite;}
+.badge{font-size:12px;line-height:1em;border-radius:100px;letter-spacing:0;height:22px;min-width:22px;padding:0 6px;display:inline-flex;align-items:center;justify-content:center;font-weight:400;}
+.badge-danger{background:#FF396F!important;}
+.appHeader .badge{min-width:16px;height:16px;line-height:9px!important;font-size:10px;padding:0 4px!important;position:absolute;right:2px;top:10px;}
+.btn{height:36px;padding:3px 18px;font-size:13px;line-height:1.2em;font-weight:500;box-shadow:none!important;display:inline-flex;align-items:center;justify-content:center;transition:0.2s all;text-decoration:none!important;border-radius:10px;border-width:2px;}
+.btn-lg{height:52px;padding:3px 24px;font-size:15px;}
+.btn-primary{background:#6236FF!important;border-color:#6236FF!important;color:#FFFFFF!important;}
+.btn-primary:hover,.btn-primary:focus,.btn-primary:active{background:#4e1dff!important;border-color:#4e1dff!important;}
+.btn-primary:disabled{background:#6236FF;border-color:#6236FF;opacity:0.5;}
+.text-danger{color:#FF396F!important;}
+.transactions .item{background:#ffffff;box-shadow:0 1px 3px 0 rgba(0,0,0,0.09);border-radius:10px;padding:20px 24px;margin-bottom:10px;display:flex;align-items:center;justify-content:space-between;}
+.transactions .item:last-child{margin-bottom:0;}
+.transactions .item p{font-size:11px;margin:0;color:#958d9e;font-weight:500;}
+.transactions .item .detail{display:flex;align-items:center;justify-content:flex-start;line-height:1.2em;}
+.transactions .item .detail .image-block{margin-right:16px;}
+.transactions .item .detail strong{display:block;font-weight:500;color:#27173E;margin-bottom:3px;}
+.transactions .item .right{padding-left:10px;}
+.transactions .item .right .price{font-weight:700;color:#27173E;letter-spacing:-0.03em;}
+/*! CSS Used keyframes */
+@keyframes loadingAnimation{0%{transform:rotate(0deg);}100%{transform:rotate(360deg);}}
+/*! CSS Used fontfaces */
+@font-face{font-family:'Poppins';font-style:normal;font-weight:400;font-display:swap;src:local('Poppins Regular'), local('Poppins-Regular'), url(https://fonts.gstatic.com/s/poppins/v9/pxiEyp8kv8JHgFVrJJbecmNE.woff2) format('woff2');unicode-range:U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:400;font-display:swap;src:local('Poppins Regular'), local('Poppins-Regular'), url(https://fonts.gstatic.com/s/poppins/v9/pxiEyp8kv8JHgFVrJJnecmNE.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:400;font-display:swap;src:local('Poppins Regular'), local('Poppins-Regular'), url(https://fonts.gstatic.com/s/poppins/v9/pxiEyp8kv8JHgFVrJJfecg.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:500;font-display:swap;src:local('Poppins Medium'), local('Poppins-Medium'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLGT9Z11lFc-K.woff2) format('woff2');unicode-range:U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:500;font-display:swap;src:local('Poppins Medium'), local('Poppins-Medium'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLGT9Z1JlFc-K.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:500;font-display:swap;src:local('Poppins Medium'), local('Poppins-Medium'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:600;font-display:swap;src:local('Poppins SemiBold'), local('Poppins-SemiBold'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLEj6Z11lFc-K.woff2) format('woff2');unicode-range:U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:600;font-display:swap;src:local('Poppins SemiBold'), local('Poppins-SemiBold'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLEj6Z1JlFc-K.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:600;font-display:swap;src:local('Poppins SemiBold'), local('Poppins-SemiBold'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
